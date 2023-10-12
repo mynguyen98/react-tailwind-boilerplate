@@ -49,3 +49,102 @@ export const FEATURES = [
     desc: 'Efficient automation, real-time tracking, and cost-effective optimization of logistics processes',
   },
 ]
+
+export const WHY_CHOOSE_US = [
+  [
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+  ],
+  [
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+  ],
+  [
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+  ],
+  [
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+    {
+      icon: '',
+      title: {
+        en: 'Extremely high level of customization',
+        it: 'Extremely high level of customization',
+      },
+      desc: {
+        en: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge and features acquired over years from various industry entities.',
+        it: 'The founding principle of Crossdocker is to be highly customizable to the individual clients needs and way of working, while still providing them with the knowledge ',
+      },
+    },
+  ],
+]

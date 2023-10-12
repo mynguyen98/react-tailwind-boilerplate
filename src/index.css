@@ -31,3 +31,6 @@ body {
 .type-writer-features span {
   color: #5abfe8;
 }
+.why-choose-us--slider .slick-list {
+  padding: 0 40px 0 40px;
+}
