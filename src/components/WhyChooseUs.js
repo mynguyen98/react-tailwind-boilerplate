@@ -1,56 +1,74 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
+import SwiperCore from 'swiper'
+import { Navigation, Pagination } from 'swiper/modules'
 import { WHY_CHOOSE_US } from '../common/languages'
 import { useSelector } from 'react-redux'
 import Slider from 'react-slick'
 import ArrowRight from './button/ArrowRight'
 import ArrowLeft from './button/ArrowLeft'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
 const WhyChooseUs = () => {
+  const swiperRef = useRef()
   const { lang } = useSelector((store) => store.global)
   const [isLeftShow, setIsLeftShow] = useState(false)
   const [isRightShow, setIsRightShow] = useState(true)
+  const [isPrev, setIsPrev] = useState(false)
+  const [isNext, setIsNext] = useState(true)
 
-  const sliderSettings = {
-    dots: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    nextArrow: isRightShow && <ArrowRight />,
-    prevArrow: isLeftShow && <ArrowLeft />,
-    beforeChange: (e) => {
-      // console.log(e)
-      // if (e === 0) setIsRightShow(false)
-      // if (e > 0) setIsRightShow(true)
-    },
-    afterChange: (e) => {
-      console.log(e)
-      // if (e === 0) setIsLeftShow(false)
-      // if (e > 0) setIsLeftShow(true)
-    },
+  const handleHideShowNavigation = (event) => {
+    const { isBeginning, isEnd } = event
+    setIsPrev(!isBeginning)
+    setIsNext(!isEnd)
   }
   return (
-    <div className='bg-bgMain px-10 m-auto flex items-center my-auto flex items-center'>
-      <AnimationOnScroll
-        className={``}
-        animateIn='animate__fadeInUp'
-        offset={100}
-        initiallyVisible={true}
-        animatePreScroll={false}
-      >
-        <div className='max-w-7xl my-auto overflow-hidden  -w h-screen pt-[120px] '>
-          <h2 className='text-6xl text-white mb-10'>
+    <div className='bg-bgMain h-screen pt-1/2'>
+      <div className='max-w-7xl m-auto h-full flex flex-col justify-center'>
+        <div className='  '>
+          <h2 className='text-6xl text-white mb-20'>
             Why choose Cross<span className='text-p500'>Docker</span>
           </h2>
-          <div className='text-white why-choose-us--slider'>
-            <Slider {...sliderSettings}>
-              {WHY_CHOOSE_US.map((items, index) => {
-                return (
-                  <div className='flex flex-col gap-10'>
+        </div>
+        <div className=' asset-slider-list relative '>
+          <Swiper
+            // onSlideNextTransitionStart={() => setHide(true)}
+            // onSlidePrevTransitionStart={() => setHide(false)}
+            onSlideChange={(e) => handleHideShowNavigation(e)}
+            onBeforeInit={(swiper) => {
+              swiperRef.current = swiper
+            }}
+            className=''
+            slidesPerView={1}
+            speed={700}
+            slidesPerGroup={1}
+            navigation={false}
+            modules={[Navigation]}
+            allowTouchMove={true}
+            spaceBetween={40}
+            breakpoints={{
+              // when window width is >= 576px
+              990: {
+                spaceBetween: 80,
+              },
+              // when window width is >= 1024px
+              1440: {
+                spaceBetween: 120,
+              },
+            }}
+          >
+            {WHY_CHOOSE_US.map((items, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <div className='flex flex-col gap-16'>
                     {items.map((item, index) => {
                       return (
-                        <div className='flex gap-5 mb-5'>
-                          <div className=' w-20 h-full border border-white'>
+                        <div className='flex gap-5 mb-5 text-white'>
+                          <div className='  h-full border border-white'>
                             <img src={item.icon} alt='icon desc' />
                           </div>
                           <div>
@@ -63,12 +81,32 @@ const WhyChooseUs = () => {
                       )
                     })}
                   </div>
-                )
-              })}
-            </Slider>
-          </div>
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
+          {isPrev ? (
+            <div
+              className='absolute top-1/2 left-0 z-20 w-10 h-10'
+              onClick={() => swiperRef.current?.slidePrev()}
+            >
+              <ArrowLeft />
+            </div>
+          ) : (
+            ''
+          )}
+          {isNext ? (
+            <div
+              className='absolute top-1/2 right-0 w-10 h-10'
+              onClick={() => swiperRef.current?.slideNext()}
+            >
+              <ArrowRight />
+            </div>
+          ) : (
+            ''
+          )}
         </div>
-      </AnimationOnScroll>
+      </div>
     </div>
   )
 }

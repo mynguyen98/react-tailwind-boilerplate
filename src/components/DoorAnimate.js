@@ -28,8 +28,9 @@ const DoorAnimate = () => {
   }, [])
   return (
     <div className='w-full relative' ref={wrapperRef}>
+      <div className='w-full h-20 bg-doorColor translate-y-[1px]'></div>
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2'>
-        <h2 className='text-center text-4xl font-semibold'>
+        <h2 className='mb-5 text-center text-2xl md:text-4xl font-semibold'>
           Ready to <br />
           Simplify your work
         </h2>

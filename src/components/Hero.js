@@ -8,12 +8,12 @@ const Hero = () => {
   const { lang } = useSelector((store) => store.global)
 
   return (
-    <div className=' pt-[90px] bg-bgMain h-screen flex items-center px-10'>
+    <div className=' pt-[120px] bg-bgMain h-screen  flex items-center px-10 py-20'>
       <div className='max-w-7xl m-auto '>
-        <div className='flex gap-x-5'>
+        <div className='grid grid-cols-2 gap-x-5'>
           <div className='w-1/2'>
             <div>
-              <h1 className=' text-[48px] font-bold text-white mb-5'>
+              <h1 className=' text-[48px] font-bold text-white mb-5 whitespace-nowrap'>
                 Wellcome to
               </h1>
               <div className='type-container mb-5'>
@@ -31,7 +31,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className='w-1/2'>
+          <div className='flex justify-center items-center'>
             <img src={heroMapImg} alt='hero map img' />
           </div>
         </div>

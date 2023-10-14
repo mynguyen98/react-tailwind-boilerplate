@@ -22,6 +22,7 @@ module.exports = {
       transparent: 'transparent',
       bgGray: '#F8F9FA',
       red: '#ff0000',
+      doorColor: '#d9e3fd',
     },
   },
   plugins: [],

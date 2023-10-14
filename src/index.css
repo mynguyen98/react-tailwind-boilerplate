@@ -17,13 +17,15 @@ body {
 
 .type-writer strong {
   color: #5abfe8;
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
+  white-space: nowrap;
 }
 .type-writer span {
   color: white;
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
+  white-space: nowrap;
 }
 .type-writer-features strong {
   color: #053a47;
@@ -33,4 +35,8 @@ body {
 }
 .why-choose-us--slider .slick-list {
   padding: 0 40px 0 40px;
+}
+.asset-slider-list .swiper {
+  /* padding: 0 40px 0 40px; */
+  padding: 0 240px 0 0;
 }

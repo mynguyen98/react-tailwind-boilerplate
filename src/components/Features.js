@@ -25,7 +25,7 @@ const Features = () => {
   }, [])
   return (
     <div
-      className='  bg-center bg-cover bg-no-repeat h-screen flex  px-10 items-center'
+      className=' h-screen  bg-center bg-cover bg-no-repeat py-20 flex  px-10 items-center'
       style={{ backgroundImage: `url(${bgWordConnect})` }}
     >
       <div className='max-w-7xl mx-auto ' ref={animateRef}>
