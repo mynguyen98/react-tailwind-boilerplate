@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import SectionWrapper from './SectionWrapper'
 import bgWordConnect from '../assets/images/bg-world-connect.png'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import Typewriter from 'typewriter-effect'
