@@ -6,6 +6,7 @@ import WhyChooseUs from '../components/WhyChooseUs'
 import AppSection from '../components/AppSection'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import Feedback from '../components/Feedback'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Features />
       <WhyChooseUs />
       <AppSection />
+      <Feedback />
       <ContactUs />
       <Footer />
     </div>

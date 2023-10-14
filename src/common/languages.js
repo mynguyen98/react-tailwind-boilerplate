@@ -173,3 +173,78 @@ export const APP_SECTION = {
     it: 'Track and confirm deliveries in real-time with our electronic Proof of Delivery app',
   },
 }
+
+export const CUSTOMERS_REVIEWED = [
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+  {
+    COMMENT: {
+      en: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+      it: `I LOVE the customization options! This is more than I thought would be possible right now. I really like the ability to customize the colors and background so it's seamless with my branding and I can share it in place of my website when they want to start hiring right away.`,
+    },
+    TITLE: 'Co-FOUNDER',
+    NAME: 'Kristina Lopez',
+  },
+]

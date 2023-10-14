@@ -14,10 +14,8 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 const WhyChooseUs = () => {
-  const swiperRef = useRef()
   const { lang } = useSelector((store) => store.global)
-  const [isLeftShow, setIsLeftShow] = useState(false)
-  const [isRightShow, setIsRightShow] = useState(true)
+  const swiperRef = useRef()
   const [isPrev, setIsPrev] = useState(false)
   const [isNext, setIsNext] = useState(true)
 
@@ -27,7 +25,7 @@ const WhyChooseUs = () => {
     setIsNext(!isEnd)
   }
   return (
-    <div className='bg-bgMain h-screen pt-1/2'>
+    <div className='bg-bgMain h-screen pt-1/2 px-10'>
       <div className='max-w-7xl m-auto h-full flex flex-col justify-center'>
         <div className='  '>
           <h2 className='text-6xl text-white mb-20'>
@@ -67,10 +65,13 @@ const WhyChooseUs = () => {
                   <div className='flex flex-col gap-16'>
                     {items.map((item, index) => {
                       return (
-                        <div className='flex gap-5 mb-5 text-white'>
-                          <div className='  h-full border border-white'>
-                            <img src={item.icon} alt='icon desc' />
-                          </div>
+                        <div className='flex h-full gap-5 md:gap-10 mb-5 text-white'>
+                          <img
+                            src={item.icon}
+                            alt='icon desc'
+                            className='border border-white p-10'
+                          />
+
                           <div>
                             <h3 className='text-2xl font-semibold'>
                               {item.title[lang]}
