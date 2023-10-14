@@ -5,7 +5,7 @@ import Button from './button/Button'
 
 const ContactUs = () => {
   return (
-    <div className=' bg-bgGray h-screen'>
+    <div className=' bg-bgGray '>
       <div className=' mx-auto  pb-10'>
         <DoorAnimate />
         <div className='mx-auto max-w-7xl grid grid-cols-2 gap-10 pb-10 px-10 pt-24 md:pt-10'>
