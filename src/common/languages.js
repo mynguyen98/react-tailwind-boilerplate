@@ -148,3 +148,28 @@ export const WHY_CHOOSE_US = [
     },
   ],
 ]
+
+export const APP_SECTION = {
+  LIST_FEATURES: [
+    {
+      en: 'Track and Trace',
+      it: 'Track and Trace it',
+    },
+    {
+      en: 'Proactive advice by emails ',
+      it: 'Track and Trace it',
+    },
+    {
+      en: 'Fleet routes optimization ',
+      it: 'Track and Trace it',
+    },
+    {
+      en: 'Electronic Proof of Delivery (ePOD) App',
+      it: 'Track and Trace it',
+    },
+  ],
+  DESCRIPTION: {
+    en: 'Track and confirm deliveries in real-time with our electronic Proof of Delivery app for Android and iOS devices. Ensure transparency and customer satisfaction with our user-friendly app.',
+    it: 'Track and confirm deliveries in real-time with our electronic Proof of Delivery app',
+  },
+}

@@ -42,7 +42,7 @@ const Navbar = () => {
               </span>
               {/* <IconChevronDown /> */}
             </div>
-            <ul className='absolute hidden group-hover:block  bottom-0  translate-y-full left-0 bg-white shadow-sm'>
+            <ul className='absolute hidden group-hover:hidden  bottom-0  translate-y-full left-0 bg-white shadow-sm'>
               <li>
                 <div
                   onClick={() => ''}

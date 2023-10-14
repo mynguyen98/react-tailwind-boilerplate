@@ -20,6 +20,8 @@ module.exports = {
       black100: '#053A47',
       black200: '#676A73',
       transparent: 'transparent',
+      bgGray: '#F8F9FA',
+      red: '#ff0000',
     },
   },
   plugins: [],
