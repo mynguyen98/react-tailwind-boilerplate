@@ -16,9 +16,8 @@ const AppSection = () => {
           className={`flex items-center`}
           animateIn='animate__fadeInUp'
           offset={100}
-          initiallyVisible={true}
+          initiallyVisible={false}
           animatePreScroll={false}
-          animateOnce={true}
         >
           <div className='w-1/2 flex gap-10 flex-col  h-full'>
             <div>

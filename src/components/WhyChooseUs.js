@@ -26,7 +26,13 @@ const WhyChooseUs = () => {
   }
   return (
     <div className='bg-bgMain h-screen pt-1/2 px-10'>
-      <div className='max-w-7xl m-auto h-full flex flex-col justify-center'>
+      <AnimationOnScroll
+        className={`max-w-7xl m-auto h-full flex flex-col justify-center`}
+        animateIn='animate__fadeInUp'
+        offset={50}
+        initiallyVisible={false}
+        animatePreScroll={false}
+      >
         <div className='  '>
           <h2 className='text-6xl text-white mb-20'>
             Why choose Cross<span className='text-p500'>Docker</span>
@@ -107,7 +113,7 @@ const WhyChooseUs = () => {
             ''
           )}
         </div>
-      </div>
+      </AnimationOnScroll>
     </div>
   )
 }

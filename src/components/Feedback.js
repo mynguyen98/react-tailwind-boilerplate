@@ -35,9 +35,8 @@ const Feedback = () => {
           className={``}
           animateIn='animate__fadeInUp'
           offset={100}
-          initiallyVisible={true}
+          initiallyVisible={false}
           animatePreScroll={false}
-          animateOnce={true}
         >
           <div className='mb-9'>
             <h1 className='text-4xl font-semibold'>What Our Customers</h1>

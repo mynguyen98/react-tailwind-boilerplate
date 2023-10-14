@@ -34,7 +34,7 @@ const Features = () => {
             className={``}
             animateIn='animate__fadeInUp'
             offset={100}
-            initiallyVisible={true}
+            initiallyVisible={false}
             animatePreScroll={false}
           >
             <h1 className=' text-7xl text-white font-bold text-center'>
